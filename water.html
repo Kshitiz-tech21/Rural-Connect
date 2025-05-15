@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Level Detection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        .states-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+        
+        .state {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        
+    </style>
+    <header>
+        <h1>Water Level Detection</h1>
+    </header>
+    <main>
+        <div class="states-container">
+            <div class="state" id="andhra-pradesh">
+                <h2>Andhra Pradesh</h2>
+                <p>Water Level: <span id="andhra-level">--</span></p>
+            </div>
+            <div class="state" id="karnataka">
+                <h2>Karnataka</h2>
+                <p>Water Level: <span id="karnataka-level">--</span></p>
+            </div>
+            <div class="state" id="tamil-nadu">
+                <h2>Tamil Nadu</h2>
+                <p>Water Level: <span id="tamil-nadu-level">--</span></p>
+            </div>
+            <div class="state" id="maharashtra">
+                <h2>Maharashtra</h2>
+                <p>Water Level: <span id="maharashtra-level">--</span></p>
+            </div>
+            <div class="state" id="uttar-pradesh">
+                <h2>Uttar Pradesh</h2>
+                <p>Water Level: <span id="uttar-pradesh-level">--</span></p>
+            </div>
+            <div class="state" id="madhya-pradesh">
+                <h2>Madhya Pradesh</h2>
+                <p>Water Level: <span id="madhya-pradesh-level">--</span></p>
+            </div>
+            <div class="state" id="rajasthan">
+                <h2>Rajasthan</h2>
+                <p>Water Level: <span id="rajasthan-level">--</span></p>
+            </div>
+            <div class="state" id="gujarat">
+                <h2>Gujarat</h2>
+                <p>Water Level: <span id="gujarat-level">--</span></p>
+            </div>
+            <div class="state" id="west-bengal">
+                <h2>West Bengal</h2>
+                <p>Water Level: <span id="west-bengal-level">--</span></p>
+            </div>
+            <div class="state" id="bihar">
+                <h2>Bihar</h2>
+                <p>Water Level: <span id="bihar-level">--</span></p>
+            </div>
+        </div>
+    </main>
+    <script>
+        // Dummy data for water levels (random numbers)
+const waterLevels = {
+    "andhra-pradesh": Math.floor(Math.random() * 100),
+    "karnataka": Math.floor(Math.random() * 100),
+    "tamil-nadu": Math.floor(Math.random() * 100),
+    "maharashtra": Math.floor(Math.random() * 100),
+    "uttar-pradesh": Math.floor(Math.random() * 100),
+    "madhya-pradesh": Math.floor(Math.random() * 100),
+    "rajasthan": Math.floor(Math.random() * 100),
+    "gujarat": Math.floor(Math.random() * 100),
+    "west-bengal": Math.floor(Math.random() * 100),
+    "bihar": Math.floor(Math.random() * 100)
+};
+
+// Function to update water levels
+function updateWaterLevels() {
+    for (let state in waterLevels) {
+        const levelElement = document.getElementById(state + "-level");
+        levelElement.textContent = waterLevels[state] + " units";
+    }
+}
+
+// Call the function initially to display water levels
+updateWaterLevels();
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,264 @@
+
+@media only screen and (max-width: 100px) {
+    body {
+      background-color: rgb(172, 172, 172);
+    }
+    .container{
+        display: flex;
+        
+    }
+    .element,ul, li,a{
+        display: flex;
+        color:blue;
+        text-decoration: none;
+    }
+    
+    
+    .element{
+        display: flex;
+        margin:0px 0px 0px 600px;
+    
+    }
+    
+    .Heading{
+        margin: -10px 0px 0px 50px ;
+    }
+    
+    ul,li{
+        
+        gap:20px;
+    }
+    
+    .image1{
+        display: flex;
+        margin:0px 0px 0px 100px
+    }
+    
+    .logo{
+        margin:10px 0px 0px 0px;
+    }
+    
+    .element a:hover{
+        color:rgb(85, 104, 141);
+    }
+    
+    .process{
+        width:500px;
+        height: 400px;
+    }
+    
+    .about{
+        background: #ded8d8;
+        margin:-18px 0px 0px 25px;
+    }
+    
+    .Methods{
+        display: flex;
+        background: #ffffff;
+        margin: 0px 0px 0px 300px;
+        color:black;
+    }
+    .problem1 h2{
+        display: flex;
+        margin: 10px 0px 0px 605px;
+        font-size: 40px;
+        background:#707070;
+    }
+    
+    .problem{
+        background:#707070;
+    }
+    .problem1 strong{
+        margin:10px 0px 5px 20px;
+        font-size: 30px;
+    }
+    
+    .problem1 strong,p{
+        margin:10px 0px 5px 20px;
+        
+    }
+  }
+
+.container{
+    display: flex;
+    
+}
+.element,ul, li,a{
+    display: flex;
+    color:blue;
+    text-decoration: none;
+}
+
+
+.element{
+    display: flex;
+    margin:0px 0px 0px 500px;
+
+}
+
+.Heading{
+    margin: -10px 0px 0px 20px ;
+}
+
+ul,li{
+    
+    gap:20px;
+}
+
+.image1{
+    display: flex;
+    margin:0px 0px 0px 100px
+}
+
+.logo img{
+    margin:2px 0px 0px 90px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.element a:hover{
+    color:rgb(85, 104, 141);
+}
+
+.process{
+    width:500px;
+    height: 400px;
+}
+
+.about{
+    background: #ded8d8;
+    margin:-18px 0px 0px 5px
+}
+
+.Methods{
+    display: flex;
+    background: #ffffff;
+    margin: 0px 0px 30px 300px;
+    color:black;
+    height: 800px;
+}
+
+.method-img img{
+    display: flex;
+    background: #ffffff;
+    margin: 0px 0px 30px 230px;
+    color:black;
+    width:1000px;
+    height: 700px;
+}
+.methods{
+    margin: 0 auto;
+}
+.problem1 h2{
+    display: flex;
+    margin: 10px 0px 0px 605px;
+    font-size: 40px;
+    background:#cecaca;
+}
+
+.problem{
+    background:#cecaca;
+    margin: -20px 0px 0px 0px;
+}
+
+.problem1 strong{
+    margin:10px 0px 5px 20px;
+    font-size: 30px;
+}
+
+.problem1 strong,p{
+    margin:10px 0px 5px 20px;
+}
+
+.container12{
+    margin: 0px 0px 0px 20px;
+}
+
+.container2{
+    margin: 0px 0px 0px 0px;
+}
+
+.solution2{
+    margin-left: 605px;
+    font-size: 30px;
+}
+
+.solution{
+    background: #cecaca;
+    margin: -30px 0px 20px 0px;
+}
+
+.imple{
+    margin:0px 0px 20px 20px;
+}
+
+.major-solution{
+    margin-left: 540px;
+    font-size: 30px;
+}
+
+.image-ai{
+    display: flex;
+    width: 1490px;
+    height:700px;
+    margin-left: 50px;
+}
+
+footer{
+    background: #6b6b71;
+    margin-top: -10px;
+    border-top: #8383b1 2px solid ;
+  }
+  
+  .footer-content{
+    background: #6b6b71;
+    align-items: center;
+    padding:0px 0px 20px 0px;
+    margin: 0px 0px 0px 600px ;
+  }
+  
+  .contact ,h222 {
+    display: flex;
+    font-size: 30px;
+    text-decoration: dotted rgb(246, 245, 245);
+    margin: 0px 0px 0px 30px;
+  }
+  
+  .help{
+    display: flex;
+    margin-left: 30px;
+    gap: 10px;
+  }
+  
+  .help1{
+    display: flex;
+    margin-left: 30px;
+    height: 20px;
+    gap: 10px;
+    
+  }
+  
+  .help2{
+    display: flex;
+    margin-left: 30px;
+    height: 30px;
+    gap: 10px;
+    
+  }
+  
+  .img111{
+    width: 20px;
+    height: 20px;
+    padding: 15px 4px 0px 3px ;
+  }
+  
+  .img112{
+    width: 20px;
+    height: 20px;
+    padding: 15px 4px 0px 3px ;
+  }
+  .help ,.phone1{
+    padding: 0px 4px 0px 3px ;
+  }
+ 

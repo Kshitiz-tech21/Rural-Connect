@@ -1,0 +1,773 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: #333;
+  color: rgb(251, 248, 248);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 190px;
+  margin-top: 0px;
+  border: solid 3px black;
+}
+
+.top-section {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+}
+
+.top-section h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: aliceblue;
+  margin-top: 20px;
+}
+
+.img-container {
+  width: 150px;
+  height: 100px;
+  margin-top: -30px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 3px 0px;
+  background-color: #100f0f;
+  border: 3px solid;
+  margin: 0%;
+}
+
+ul {
+  display: grid;
+  margin: 0px 0px 3px 19px;
+  gap: 15rem;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu1:hover {
+  box-shadow: #595757 2px 3px 4px 5px;
+  -ms-transform: scale(1);
+  /* IE 9 */
+  -webkit-transform: scale(1);
+  /* Safari 3-8 */
+  transform: scale(1.19);
+
+}
+
+.menu2:hover {
+  box-shadow: #595757 2px 3px 4px 5px;
+  -ms-transform: scale(1);
+  /* IE 9 */
+  -webkit-transform: scale(1);
+  /* Safari 3-8 */
+  transform: scale(1.19);
+
+}
+
+.menu3:hover {
+  box-shadow: #595757 2px 3px 4px 5px;
+  -ms-transform: scale(1);
+  /* IE 9 */
+  -webkit-transform: scale(1);
+  /* Safari 3-8 */
+  transform: scale(1.19);
+}
+
+.menu4:hover {
+  box-shadow: #595757 2px 3px 4px 5px;
+  -ms-transform: scale(1);
+  /* IE 9 */
+  -webkit-transform: scale(1);
+  /* Safari 3-8 */
+  transform: scale(1.19);
+}
+
+.menu5:hover {
+  box-shadow: #595757 2px 3px 4px 5px;
+  -ms-transform: scale(1);
+  /* IE 9 */
+  -webkit-transform: scale(1);
+  /* Safari 3-8 */
+  transform: scale(1.19);
+}
+
+.container2 {
+  background: #1e1f1f;
+  margin: 0px;
+}
+
+/* 
+.img1{
+display: flex;
+width:980px;
+height:500px;
+margin:10px 0px 4px 230px;
+border:0px solid rgb(11, 11, 11);
+
+} */
+
+/* Slideshow container */
+/* .slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: 10px 0px 0px 250px;
+} */
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px
+  }
+}
+
+/* .img1:hover{
+display: flex;
+width:980px;
+height:500px;
+margin:15px 0px 4px 230px;
+border:0px solid rgb(238, 238, 238);
+
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1.01); 
+  transform: scale(1.005); 
+} */
+
+.doc {
+  color: aliceblue;
+  z-index: 13;
+}
+
+.doc:hover {
+  color: aliceblue;
+  z-index: 13;
+  -ms-transform: scale(1);
+  /* IE 9 */
+  -webkit-transform: scale(1);
+  transform: scale(1.2);
+}
+
+.option {
+  /* background: #000000; */
+  /* min-height: fit-content; */
+  background-image: url(hbck.jpg);
+  height: 550px;
+  box-shadow: #786e71 2px 0px 12px 12px;
+}
+
+
+.problems1,
+h2 {
+  display: grid;
+  margin: 10px 0px 10px 0px;
+  text-align: center;
+  color: aliceblue;
+  background: #2d2c2c;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  font-size: 50px;
+  padding: 10px 0px 10px 0px;
+}
+
+.content {
+  margin: 0px 0px 0px 160px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+
+}
+
+.content12 img {
+  width: 280px;
+  height: 150px;
+  border: 1px solid rgb(8, 0, 0);
+  z-index: 12;
+  border-radius: 19px;
+  align-items: center;
+}
+
+.content12 {
+  margin: 0px 0px 0px 230px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+}
+
+
+.content img {
+  width: 280px;
+  height: 150px;
+  border: 1px solid rgb(8, 0, 0);
+  z-index: 12;
+  border-radius: 19px;
+  align-items: center;
+}
+
+
+.pict1 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 20px;
+  box-shadow: white 0px 0px 220px 12px;
+}
+
+#pict1 {
+  margin-left: 90px;
+  box-shadow: white 0px 0px 220px 12px;
+}
+
+.doc1 {
+  color: rgb(255, 255, 255);
+  z-index: 13;
+  align-items: last baseline;
+}
+
+.doc1:hover {
+  color: aliceblue;
+  z-index: 13;
+  -ms-transform: scale(1);
+  /* IE 9 */
+  -webkit-transform: scale(1);
+  transform: scale(1.2);
+}
+
+.menu ul li {
+  margin: 0 10px;
+
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.slideshow-container {
+  max-width: 1550px;
+  width: 1450px;
+  height: 150px;
+  /* position: relative; */
+  margin: 10px 0px 0px 0px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  /* position: absolute; */
+  /* top: 0; */
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  margin: 0px 2px;
+  background-color: #f19797;
+  border-radius: 50%;
+  display: flexbox;
+  transition: background-color 0.6s ease;
+  justify-content: space-between;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px
+  }
+}
+
+.option {
+  margin-top: 300px;
+}
+
+.gallery {
+  margin-top: 10px;
+  height: 300px;
+  background: #d21054;
+  box-shadow: #8f035c 2px 0px 43px 3px;
+
+}
+
+.media-gallery h1 {
+  color: rgb(214, 212, 195);
+  text-align: center;
+  text-decoration: underline rgb(214, 212, 195);
+  padding-top: 10px;
+}
+
+.photo h4 {
+  font-size: 32px;
+  color: rgb(214, 212, 195);
+  text-align: start;
+  margin: 0px 0px 0px 33px;
+  text-decoration: underline dotted;
+  padding-top: 10px;
+}
+
+.gallery img {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  margin: 0px 0px 0px 63px;
+}
+
+.view1 {
+  background: #fbc42e;
+  align-items: center;
+  padding: 2px 12px 2px 2px;
+  border: solid 1px #998502;
+  box-shadow: #f6a859 0px 2px 2px 3px;
+  margin-top: 10px;
+
+}
+
+.view1:hover {
+  background: #f4b60b;
+  padding: 2px 12px 2px 2px;
+  color: #050505;
+  align-items: center;
+  cursor: pointer;
+}
+
+.view11 {
+  background: #fbc42e;
+  align-items: center;
+  padding: 2px 12px 2px 2px;
+  border: solid 1px #998502;
+  box-shadow: #f6a859 0px 2px 2px 3px;
+  margin: 10px 0px 0px 40px;
+}
+
+.view11:hover {
+  background: #f4b60b;
+  padding: 2px 12px 2px 2px;
+  color: #050505;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.container31 {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.container3,
+.gallery1 {
+  width: 1400px;
+  align-items: center;
+
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.department {
+  background: #0b53b9;
+  box-shadow: yellow 20px 0px 3334px 0px;
+  padding-left: 10px;
+}
+
+.department1 {
+  font-size: 50px;
+  color: yellow;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.administration {
+  font-size: 30px;
+  color: yellow;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+object {
+  font-size: 20px;
+}
+
+@keyframes binaryAnimation {
+  0% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: translateY(-5px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+}
+
+
+.logo-animation h1 {
+  animation: binaryAnimation 2s infinite;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo img {
+  margin-right: 10px;
+  height: 80px;
+  width: 80px;
+
+}
+
+.logo h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+body.light {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+.toggle-switch {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  appearance: none;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.toggle-switch:checked {
+  background-color: #5191c5;
+}
+
+.toggle-switch::before {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  transition: transform 0.3s;
+}
+
+.toggle-switch:checked::before {
+  transform: translateX(20px);
+}
+
+/* Increase font size for paragraphs */
+p {
+  font-size: 20px;
+  /* You can change the value to your desired font size */
+}
+
+/* Increase font size for headings */
+h1 {
+  font-size: 44px;
+  /* You can change the value to your desired font size */
+}
+
+h2 {
+  font-size: 30px;
+  /* You can change the value to your desired font size */
+}
+
+h3 {
+  font-size: 20px;
+  /* You can change the value to your desired font size */
+}
+
+h4 {
+  font-size: 20px;
+  /* You can change the value to your desired font size */
+}
+
+/* Increase font size for a specific class */
+.my-custom-class {
+  font-size: 22px;
+  /* You can change the value to your desired font size */
+}
+
+.btn {
+  color: rgb(244, 239, 239);
+  background-color: #dbd2d2;
+  text-decoration: none;
+  padding: 12px 12px;
+  font-size: 1rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* Style for the buttons */
+button {
+  /* display: inline-block; */
+  margin-left: 60px;
+  /* Adjust the margin as needed */
+  padding-left: 90;
+  background: rgb(0, 0, 0);
+  border: 1px solid rgb(10, 9, 9);
+  overflow: hidden;
+  cursor: pointer;
+
+}
+
+button,
+.pict1 {
+  display: inline-block;
+  margin-left: 60px;
+  /* Adjust the margin as needed */
+  background: black;
+  border: 1px solid rgb(8, 0, 0);
+  overflow: hidden;
+}
+
+
+/* Style for the button images */
+button img {
+  width: 100%;
+  height: auto;
+}
+
+/* Optional: Add hover effect for the buttons  */
+button:hover {
+  border-color: rgb(0, 0, 0);
+  /* Change the color on hover as desired */
+  box-shadow: #d3d8ad 0px 0px 0px 0px, rgb(180, 180, 197) 0px 3px 4px 0px;
+  -ms-transform: scale(1);
+  /* IE 9 */
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+}
+
+body {
+  background-color: rgb(250, 250, 251);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background: #59595a;
+  margin-top: 30px;
+  border-top: #cdcaca 2px solid;
+}
+
+.container1,
+.footer-content {
+  margin: 05px 0px 5px 0px;
+  background: #59595a;
+  align-items: center;
+  margin: 0px 0px 20px 250px;
+}
+
+.contact,
+h222 {
+  display: flex;
+  font-size: 30px;
+  text-decoration: dotted rgb(246, 245, 245);
+  margin-left: 30px;
+  background: #59595a;
+}
+
+.help {
+  display: flex;
+  margin-left: 30px;
+  background: #59595a;
+  gap: 10px;
+}
+
+.help1 {
+  display: flex;
+  margin-left: 30px;
+  background: #59595a;
+  height: 60px;
+  gap: 10px;
+
+}
+
+.help2 {
+  display: flex;
+  margin-left: 30px;
+  background: #59595a;
+  height: 30px;
+  gap: 10px;
+
+}
+
+.img111 {
+  width: 20px;
+  height: 30px;
+  padding: 15px 4px 0px 3px;
+}
+
+.img112 {
+  width: 20px;
+  height: 30px;
+  padding: 15px 4px 0px 3px;
+}
+
+.help,
+.phone1 {
+  padding: 0px 4px 0px 3px;
+}
+
+.container p {
+  margin: 0px 0px 0px 20px;
+}
+
+.container h2 {
+  margin: 0px 0px 10px 20px;
+}
+
+.gmail1 {
+  padding: 10px;
+}
+
+.phone1 {
+  padding: 10px;
+}
+
+.location1 {
+  padding: 10px;
+}
+
+.trans{
+  display: flex;
+  padding: 0px 0px 0px 0px;
+  margin-top: -152px;
+  
+
+
+}

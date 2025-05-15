@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye Checkup Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Eye Checkup Registration</h1>
+    </header>
+
+    <section>
+        <h2>Why Regular Eye Checkups Are Important</h2>
+        <p>Regular eye checkups are crucial for maintaining good vision and preventing potential eye problems. Especially for seniors, eye health is a key aspect of overall well-being. Detecting and addressing issues early can significantly improve the quality of life.</p>
+    </section>
+
+    <section>
+        <h2>What to Expect During a Senior Eye Checkup</h2>
+        <p>A comprehensive eye examination for seniors may include:</p>
+        <ul>
+            <li>Visual acuity test</li>
+            <li>Refraction assessment for glasses prescription</li>
+            <li>Eye pressure measurement for glaucoma screening</li>
+            <li>Examination of the retina and optic nerve</li>
+            <li>Cataract assessment</li>
+        </ul>
+        <p>Your eye care professional will guide you through each step, ensuring a thorough examination tailored to your needs.</p>
+    </section>
+
+    <section>
+        <h2>Registration Form</h2>
+        <p>Complete the registration form below to schedule your eye checkup for senior citizens. Please provide accurate information to help us better understand your needs and provide the best possible care.</p>
+        <form id="registrationForm" action="http://localhost/oldproj/connect.php" method="post">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required name="fullName"/>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required name="age"/>
+
+            <label for="contactNumber">Contact Number:</label>
+            <input type="tel" id="contactNumber" name="contactNumber" required name="contactNumber" />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required name="email"/>
+
+           
+            <input type="submit" value="signup">
+        </form>
+    </section>
+
+    <section>
+        <h2>Recommended Vision Ranges and Eye Drops</h2>
+        <p>During the eye checkup, your eye care professional may assess your vision range (e.g., 20/20) and recommend specific eye drops based on your needs. These recommendations are personalized to address common issues associated with aging eyes.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Eye Checkup Registration. All rights reserved.</p>
+    </footer>
+
+   
+</body>
+
+</html>

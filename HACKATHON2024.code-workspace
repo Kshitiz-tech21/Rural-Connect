@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "htdocs",
+			"path": ".."
+		},
+		{
+			"name": "HACKATHON2024",
+			"path": "../../../Users/amita/HACKATHON2024"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "htdocs"
+	}
+}

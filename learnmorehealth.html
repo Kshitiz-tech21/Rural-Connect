@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Vaccination Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #5f5b5b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover{
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #ccc6c6;
+            color: #fff;
+            text-decoration: underline;
+            border-radius: 5px;
+            -ms-transform: scale(1); /* IE 9 */
+            -webkit-transform: scale(0.9); /* Safari 3-8 */
+            transform: scale(1.05); 
+            color:rgb(96, 106, 245)
+        }
+
+        .vacci{
+            background-color: rgb(217, 211, 204);
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .polio,video{
+            width:500px;
+            height:300px;
+            margin:10px 55px 0px 0px;
+        }
+
+        .faqs{
+            background: rgb(217, 211, 204);
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Kids Vaccination Information</h1>
+    </header>
+
+    <section class="vacci">
+        <div class="container">
+        <div>
+        <h2>Vaccination Schedule for 0-5 Years Old Kids</h2>
+        <p>Ensure the health and well-being of your child by following the recommended vaccination schedule:</p>
+        <ul>
+            <li><strong>Birth:</strong> Hepatitis B</li>
+            <li><strong>2 months:</strong> DTP, Hib, IPV, HepB, Rotavirus</li>
+            <li><strong>4 months:</strong> DTP, Hib, IPV, HepB, Rotavirus</li>
+            <li><strong>6 months:</strong> DTP, Hib, IPV, HepB, Rotavirus, Influenza (seasonal)</li>
+            <li><strong>12-15 months:</strong> MMR, Varicella, HepA</li>
+            <li><strong>4-6 years:</strong> DTP, IPV, MMR, Varicella</li>
+        </ul>
+        <a href="fullsch.pdf" class="button">Download Full Schedule</a>
+    </div>
+    <div class="polio">
+        <video src="polio2.mp4"  autoplay muted loop infinite alt="Polio">
+    </div>
+    </div>
+    </section>
+
+    <section class="faqs">
+        <h2>Common Vaccination FAQs</h2>
+        <p>Answers to some frequently asked questions about kids' vaccinations:</p>
+        <ul>
+            <li><strong>Are vaccines safe for my child?</strong> Yes, vaccines are thoroughly tested and safe for children.</li>
+            <li><strong>What if my child misses a vaccine?</strong> Consult your pediatrician for guidance on catching up.</li>
+            <li><strong>Are there any side effects?</strong> Mild side effects are possible, such as redness at the injection site or low-grade fever.</li>
+        </ul>
+        <a href="faqs.pdf" class="button">More FAQs</a>
+    </section>
+
+    <footer>
+        <p>© 2025 kshitizb07@gmail.co. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

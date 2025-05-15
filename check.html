@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Land Details for Farming</title>
+  <link rel="stylesheet" href="check.css">
+</head>
+<style>
+    .container{
+        background: #ffffff;
+    }
+</style>
+<body>
+  <div class="container">
+    <h1>Land Details for Farming</h1>
+    <form id="landForm">
+      <label for="area">Area (in acres):</label>
+      <input type="number" id="area" name="area" required><br><br>
+
+      <label for="soilType">Soil Type:</label>
+      <input type="text" id="soilType" name="soilType" required><br><br>
+
+      <label for="rainfall">Rainfall (in mm):</label>
+      <input type="number" id="rainfall" name="rainfall" required><br><br>
+
+      <label for="temperature">Temperature (in °C):</label>
+      <input type="number" id="temperature" name="temperature" required><br><br>
+
+      <button type="button" onclick="checkLand()"> <a href="sol.html">Check Land</a></button>
+    </form>
+    <p id="landResult"></p>
+  </div>
+
+  <script src="check.js"></script>
+</body>
+</html>

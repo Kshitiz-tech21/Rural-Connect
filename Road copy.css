@@ -1,0 +1,151 @@
+.logo img{
+    height:50px;
+    width:100px;
+    border-radius: 30px;
+    margin: 20px 0px 0px 10px;
+}
+
+.container{
+    display: flex;
+}
+
+.Heading{
+    display: flex;
+    margin:0px 0px 0px 100px;
+}
+
+.element ul li{
+    display: flex;
+    margin-left: 100px;
+    color:rgb(246, 167, 71);
+    
+}
+
+
+.element, ul ,li a{
+    display: flex;
+    color:rgb(9, 8, 7);
+    gap:4px;
+    text-decoration: none;
+}
+
+.element ul a:hover{
+    display: flex;
+    color:rgb(30, 7, 133);
+    gap:4px;
+    -ms-transform: scale(1); /* IE 9 */
+     -webkit-transform: scale(1); 
+     transform: scale(1.1); 
+}
+
+.prov{
+    margin:-30px 0px 0px 260px;
+    opacity:.3;
+}
+
+.img{
+    width: 1400;
+    height: 820px;
+    margin-top: -100px;
+}
+
+.Introduction{
+    color: rgb(159, 97, 16);
+    margin: 0px 0px 0px 5px;
+}
+
+body{
+    background-color: #c4bcbc;
+}
+
+/* .form{
+    align-items: center;
+    margin-left: 680px;
+} */
+ .complain {
+    align-items: center;
+    margin-left: 640px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.form input{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#complain{
+    height: 50px;
+    width:370px;
+}
+
+button{
+    color: rgb(255, 254, 254);
+    background-color: black;
+    padding: 5px 20px 5px 20px;
+    margin-left: 5px;
+}
+
+
+footer{
+    background: #8383b1;
+    margin-top: 200px;
+    border-top: #8383b1 2px solid ;
+  }
+  
+  .container1,.footer-content{
+    margin: 05px 0px 5px 0px;
+    background: #8383b1;
+    align-items: center;
+    padding:0px 0px 20px 0px;
+    margin: 0px 0px -20px 300px ;
+  }
+  
+  .contact ,h222 {
+    display: flex;
+    font-size: 30px;
+    text-decoration: dotted rgb(246, 245, 245);
+    margin: 10px 0px 0px 30px;
+  }
+  
+  .help{
+    display: flex;
+    margin-left: 30px;
+    gap: 10px;
+  }
+  
+  .help1{
+    display: flex;
+    margin-left: 30px;
+    height: 60px;
+    gap: 10px;
+    
+  }
+  
+  .help2{
+    display: flex;
+    margin-left: 30px;
+    height: 30px;
+    gap: 10px;
+    
+  }
+  
+  .img111{
+    width: 20px;
+    height: 20px;
+    padding: 15px 4px 0px 3px ;
+  }
+  
+  .img112{
+    width: 20px;
+    height: 20px;
+    padding: 15px 4px 0px 3px ;
+  }
+  .help ,.phone1{
+    padding: 0px 4px 0px 3px ;
+  }
+

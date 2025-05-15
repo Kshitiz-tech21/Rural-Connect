@@ -1,0 +1,90 @@
+body{
+    background-image:url(street3.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: rgb(300, 300, 300);
+}
+
+.container{
+    display: flex;
+    margin:0px 0px 0px 550px;
+}
+table{
+    font-size: 30px;
+}
+
+.option{
+    font-size: 25px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+footer{
+    background: #3e3e43;
+    margin-top: 120px;
+    border-top: #cdcaca 2px solid ;
+    height: 220px;
+  }
+  
+  .footer-content p{
+    background: #3e3e43;
+    align-items: center;
+    margin: 0px 0px -5px 600px ;
+  }
+  
+  .contact ,h222 {
+    display: flex;
+    font-size: 30px;
+    margin:20px 0px 0px 30px;
+    background: #3e3e43;
+  }
+  
+  .help{
+    display: flex;
+    margin-left: 30px;
+    background: #3e3e43;
+    gap: 10px;
+  }
+  
+  .help1{
+    display: flex;
+    margin-left: 30px;
+    background: #3e3e43;
+    height: 30px;
+    gap: 10px;
+    
+  }
+  
+  .help2{
+    display: flex;
+    margin-left: 30px;
+    background: #3e3e43;
+    height: 30px;
+    gap: 10px;
+    
+  }
+  
+  .img111{
+    width: 20px;
+    height: 20px;
+    padding: 15px 4px 0px 3px ;
+  }
+  
+  .img112{
+    width: 20px;
+    height: 20px;
+    padding: 15px 4px 0px 3px ;
+  }
+  .help ,.phone1{
+    padding: 0px 4px 0px 3px ;
+  }
+  .container p{
+      margin: 0px 0px 0px 20px ;
+  }
+  
+  .container h2{
+      margin: 0px 0px 10px 20px ;
+  }
